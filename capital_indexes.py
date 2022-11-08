@@ -1,7 +1,7 @@
-def capital_indexes(text):
+def capital_indexes(texto):
     # exemplo HeLlO
     lista = []
-    for pos, char in enumerate(text):
+    for pos, char in enumerate(texto):
         if char.isupper():
             lista.append(pos)
     return lista

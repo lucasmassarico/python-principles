@@ -1,6 +1,6 @@
-def mid(text):
-    if len(text) % 2 != 0:
-        return text[int(len(text)/2)]
+def mid(texto):
+    if len(texto) % 2 != 0:
+        return texto[int(len(texto) / 2)]
     else:
         return ""
 
